@@ -18,10 +18,10 @@ int main() {
     printf("Enter the special character: \t");
     scanf(" %c", &r);   // Include a space before %c to consume any leftover whitespace
 
-    printf("%d\n", children);
-    printf("%.1f\n", tax);
-    printf("%.6f\n", bill);
-    printf("%c\n", r);
+    printf("The number of childern is :%d\t\n", children);
+    printf("Your tax pay is :%.1f\t\n", tax);
+    printf("This is your bill :%.6f\t\n", bill);
+    printf("The spacial character is :%c\t\n", r);
 
     return 0;
 }
