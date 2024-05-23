@@ -1,28 +1,27 @@
-#include<stdio.h>
-int main(){
+#include <stdio.h>
 
-int childern = 5;
-float tax = 5400.89;
-double bill = 40.60;
-char r = 'n';
+int main() {
+    int children;   // Corrected spelling from childern to children
+    float tax;
+    double bill;
+    char r;
 
+    printf("Enter the number of children: \t");
+    scanf("%d", &children);
+    
+    printf("Enter the amount of tax: \t");
+    scanf("%f", &tax);
+    
+    printf("Enter your bill: \t");
+    scanf("%lf", &bill);   // Use %lf for double
 
-printf("%d\n",childern);
-printf("%.1f\n",tax);
-printf("%.6f\n",bill);
-printf("%c\n",r);
+    printf("Enter the special character: \t");
+    scanf(" %c", &r);   // Include a space before %c to consume any leftover whitespace
 
-
-int myNumbers[] = {1,2,3,4,5,6,7,8,9};
-int lenght = sizeof(myNumbers) / sizeof(myNumbers[0]);
-printf("%d\n",lenght);
-
-int i ;
-for ( i = 0; i < lenght; i++)
-{
-    printf("%d\n",i);
-}
-
+    printf("%d\n", children);
+    printf("%.1f\n", tax);
+    printf("%.6f\n", bill);
+    printf("%c\n", r);
 
     return 0;
 }
