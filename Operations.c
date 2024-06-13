@@ -1,5 +1,10 @@
 #include<stdio.h>
-int main(){
+/*
+Author:Darwins Omondi
+Date:6/13/2024
+ReNo:BSE-01-0054/2024
+*/
+int main(){    
        //write code to check if a number is divisable by 5
      int num1,rem1,num2,rem2,num3,num4;
 
@@ -13,7 +18,6 @@ int main(){
         printf("The number %d is not divisible by ",num1);
     }
     
-
 
 
 //     //diviible by 11

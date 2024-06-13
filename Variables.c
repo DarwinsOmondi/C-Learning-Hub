@@ -1,5 +1,10 @@
-#include <stdio.h>
+/*
+Author:Darwins Omondi
+Date:6/13/2024
+ReNo:BSE-01-0054/2024
+*/
 
+#include <stdio.h>
 int main() {
     int children;   // Corrected spelling from childern to children
     float tax;
