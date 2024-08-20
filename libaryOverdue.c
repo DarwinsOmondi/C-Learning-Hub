@@ -35,6 +35,8 @@ int main(){
     }else{
         printf("You have no fine");
     }
+    int  value = 0;
 
     return 0;
+    
 }
