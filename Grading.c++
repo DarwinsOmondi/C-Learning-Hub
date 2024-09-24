@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    int sub1, sub2, sub3,average;
+    int sub1, sub2, sub3,average,grade;
     
    
 
@@ -18,20 +18,40 @@ int main(){
 
     if (average >= 70 && average <= 100)
     {
-      cout << "A " <<endl;
+      grade = 1;
     }else if(average >= 60 && average <= 69)
     {
-         cout << "B" <<endl;
+          grade = 2;
     }else if(average >= 50 && average <= 59){
- cout << "C" <<endl;
+
+  grade = 3;
+
     }else if(average >= 40 && average <= 49){
- cout << "D" <<endl;
+
+  grade = 4;
+  
     }else
     {
          cout << "Fail" <<endl;
     }
     
-    
 
+    switch (grade) {
+        case 1:
+            cout << "Grade: A" << endl;
+            break;
+        case 2:
+            cout << "Grade: B" << endl;
+            break;
+        case 3:
+            cout << "Grade: C" << endl;
+            break;
+        case 4:
+            cout << "Grade: D" << endl;
+            break;
+        default:
+            cout << "Invalid grade" << endl;
+            break;
+    }
     return 0;
 }

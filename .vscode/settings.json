@@ -59,6 +59,7 @@
   "editor.fontSize": 12,
   "files.associations": {
     "*.html": "html",
-    "stdio.h": "c"
+    "stdio.h": "c",
+    "iostream": "cpp"
   }
 }
